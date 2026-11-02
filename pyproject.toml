@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "denniefris-adrank_jd337"
+name = "denniefris-moe_route_imbalance_timeline_score"
 version = "0.1.0"
 description = "解析时间标记，排列广告召回与排序工程师·MoE 路由的负载不均的发生顺序，标出间隔异常与逆序事件"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://denniefris.github.io"
-Repository = "https://github.com/denniefris/adrank_jd337"
-Issues = "https://github.com/denniefris/adrank_jd337/issues"
+Repository = "https://github.com/denniefris/moe_route_imbalance_timeline_score"
+Issues = "https://github.com/denniefris/moe_route_imbalance_timeline_score/issues"
 
 [project.scripts]
-adrank_jd337 = "adrank_jd337:main"
+moe_route_imbalance_timeline_score = "moe_route_imbalance_timeline_score:main"
 
 [tool.setuptools]
-py-modules = ["adrank_jd337"]
+py-modules = ["moe_route_imbalance_timeline_score"]
